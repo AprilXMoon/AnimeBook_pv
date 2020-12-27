@@ -1,0 +1,72 @@
+{
+  "request_hash": "request:top:6ca7f65d98ad03f12e5c0e7e6fac8e5cfea00e27",
+  "request_cached": true,
+  "request_cache_expiry": 39190,
+  "top": [
+    {
+      "mal_id": 40028,
+      "rank": 1,
+      "title": "Shingeki no Kyojin: The Final Season",
+      "url": "https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season",
+      "image_url": "https://cdn.myanimelist.net/images/anime/1000/110531.jpg?s=3df5ebb6800604dc04c6a6187dd7161b",
+      "type": "TV",
+      "episodes": 16,
+      "start_date": "Dec 2020",
+      "end_date": null,
+      "members": 338243,
+      "score": 9.05
+    },
+    {
+      "mal_id": 40730,
+      "rank": 2,
+      "title": "Tian Guan Ci Fu",
+      "url": "https://myanimelist.net/anime/40730/Tian_Guan_Ci_Fu",
+      "image_url": "https://cdn.myanimelist.net/images/anime/1319/109301.jpg?s=f4dfec0f11710c6cfc65a15c0040c6d4",
+      "type": "ONA",
+      "episodes": 11,
+      "start_date": "Oct 2020",
+      "end_date": "Jan 2021",
+      "members": 27604,
+      "score": 8.51
+    },
+    {
+      "mal_id": 38349,
+      "rank": 3,
+      "title": "Wotaku ni Koi wa Muzukashii OVA",
+      "url": "https://myanimelist.net/anime/38349/Wotaku_ni_Koi_wa_Muzukashii_OVA",
+      "image_url": "https://cdn.myanimelist.net/images/anime/1506/97024.jpg?s=e9c1b5bf6bd82e20d11f7b243f4b8900",
+      "type": "OVA",
+      "episodes": 2,
+      "start_date": "Mar 2019",
+      "end_date": "Feb 2021",
+      "members": 78758,
+      "score": 7.86
+    },
+    {
+      "mal_id": 36064,
+      "rank": 27,
+      "title": "Fate/Grand Order",
+      "url": "https://myanimelist.net/anime/36064/Fate_Grand_Order",
+      "image_url": "https://cdn.myanimelist.net/images/anime/1405/107244.jpg?s=b6d65470386383062c319b5ec6d89d55",
+      "type": "Special",
+      "episodes": null,
+      "start_date": "Dec 2014",
+      "end_date": null,
+      "members": 14833,
+      "score": 7.3
+    },
+    {
+      "mal_id": 34535,
+      "rank": 45,
+      "title": "Koisuru Shirokuma",
+      "url": "https://myanimelist.net/anime/34535/Koisuru_Shirokuma",
+      "image_url": "https://cdn.myanimelist.net/images/anime/2/84270.jpg?s=56facbc831546691107de27849b1f127",
+      "type": "Movie",
+      "episodes": null,
+      "start_date": "Mar 2017",
+      "end_date": null,
+      "members": 4898,
+      "score": 6.84
+    }
+  ]
+}

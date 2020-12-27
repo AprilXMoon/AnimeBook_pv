@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FavoriteViewController" customModule="AnimeBook" customModuleProvider="target">
+            <connections>
+                <outlet property="favoriteTableView" destination="0ec-Xa-FZD" id="f25-Xs-fDW"/>
+                <outlet property="typeButton" destination="mho-Ie-70r" id="apL-Sa-kDZ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not any favorite items" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wUI-y9-x6L">
+                    <rect key="frame" x="111.5" y="436" width="191" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mho-Ie-70r">
+                    <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <color key="backgroundColor" red="0.86735768533543123" green="0.86834051294349202" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="0BW-YA-L5w"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <inset key="imageEdgeInsets" minX="10" minY="2" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="TYPE">
+                        <color key="titleColor" red="0.1529411765" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <imageReference key="image" image="arrowtriangle.down.fill" catalog="system" symbolScale="small"/>
+                    </state>
+                    <connections>
+                        <action selector="typeButtonDidPressed:" destination="-1" eventType="touchUpInside" id="Dj6-rx-tAP"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0ec-Xa-FZD">
+                    <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="mho-Ie-70r" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="49w-bY-yyx"/>
+                <constraint firstItem="mho-Ie-70r" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="4Lf-48-prY"/>
+                <constraint firstItem="0ec-Xa-FZD" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="EKt-17-pDI"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="mho-Ie-70r" secondAttribute="trailing" id="NxB-Hc-6rU"/>
+                <constraint firstItem="0ec-Xa-FZD" firstAttribute="top" secondItem="mho-Ie-70r" secondAttribute="bottom" id="cY5-6k-4na"/>
+                <constraint firstItem="wUI-y9-x6L" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="nzQ-VG-UxZ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="0ec-Xa-FZD" secondAttribute="bottom" id="oFg-2l-lHW"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="0ec-Xa-FZD" secondAttribute="trailing" id="u5c-1E-2EI"/>
+                <constraint firstItem="wUI-y9-x6L" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="wgx-Bo-t42"/>
+            </constraints>
+            <point key="canvasLocation" x="141" y="135"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrowtriangle.down.fill" catalog="system" width="128" height="124"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
