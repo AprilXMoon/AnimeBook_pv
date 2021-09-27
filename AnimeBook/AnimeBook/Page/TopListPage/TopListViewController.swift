@@ -84,12 +84,12 @@ class TopListViewController: UIViewController, APIProtocol {
 // MARK: - SelectViewControllerDelegate
 extension TopListViewController: SelectViewControllerDelegate {
     func selectedAnimeSubtype(subtype: AnimeSubtype) {
-        viewModel.animeSubtype = viewModel.animeSubtype
+        viewModel.animeSubtype = subtype
         reloadDataByChangedSubtype()
     }
     
     func selectedMangaSubtype(subtype: MangaSubtype) {
-        viewModel.mangaSubtype = viewModel.mangaSubtype
+        viewModel.mangaSubtype = subtype
         reloadDataByChangedSubtype()
     }
 }
